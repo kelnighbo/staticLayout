@@ -1,0 +1,198 @@
+body {
+  background: black;
+  background-image: url('https://lh3.googleusercontent.com/ipibe2UazeN1md2xAxm8iaYryl1pT28hhuWUF8kfctmNaMUu07ozp0PITGJUbct9EioI4LQtfrPgeZsQ1m0EUG-iHxFfbkAZp4i80fvE0ORqybws4Jz0DXP-a529ocF4Am7vDKQcjeN-9TDbIIb_bg2O3GKfZ5BmGRPMIF23hFU2SFopep6M1awtAXiBSZJLPjZqwZnczgefSe3vFFPuItL2HM8xf8O-f89to-Z2jiZMkZyAHdA9P0eivXg882lK98zaV2oEjl0r8uzUikiSM_8BLQYJi4S4_6Du8O_-QpdiI5TPZEjPJ98_Yl8w1vArt4nnF4LXV0XHD7OFsL9g6ZT3JQNMG2LBO6Cil9ju4c0Em_88cEFHgsb0STukGGZgPZcbKCYFHOKR69RXEnzehZEHUXgYisFKl_BiookgRkrT3Brz8B-E1pcvjfeGosQUuo2erKrmTEsgVpD6a_N0V-dBzdx5I3ynk--bDTHXOtAkRHkQlAjBkzPwpZM4NRBGosIxz__BUWFiiBHZV87v5JeICHpKEpDWe_oAI6BO7trFvUuSG6zxGM51aSIbdX21vT25f90aj-8t0XowsX4U18IvpMHpFK2ygEzj4V_7zev5GBmZvDTOy9rmikhbSQeFtaoNSQvRIm-fW6ZCTOIqsqBtlAKoAMKr0IYAItgHbfm_0Kz2MNZufXuqmWx-=w1810-h1164-no?authuser=0');
+  background-size: 105vw;
+  
+}
+.contain nav {
+  list-style-type: none;
+  width: 100%;
+}
+.container nav ul {
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: white;
+  display: block;
+  text-align: right;
+  }
+.nav-link {
+  color: white;
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: lightgrey;
+}
+
+#home {
+  color: white
+}
+h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 100px;
+  letter-spacing: 1px;
+  color: rgb(14,190,148);
+}
+
+h2 {
+  color: rgb(14,230,148);
+  font-size: 125px;
+  letter-spacing: 5px;
+  font-family: 'Tajawal', sans-serif; 
+  text-align: center;
+  margin-top: -90px;
+}
+h3 {
+  color: white;
+  text-align: center;
+  margin-top: -130px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 18px;
+}
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  margin-top: -12px;   
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+}
+    
+.container {
+  margin-top: 50px;
+  perspective: 600px;
+  width: 100%;
+  height: 200px;
+}
+.block {
+  display: block;
+  margin-left: 450px;
+  float: center;
+  width: 29%;
+  height: 60px;
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  padding: 16px 40px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+.block:hover {
+  background-color: white;
+  opacity: .9;
+}
+h6 {
+  color: lightgrey;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-left: -50px;
+}
+header {
+  width: 100%;
+  height: 125px;
+  margin-top: 60px;
+  border: solid 0px;
+  background: linear-gradient(130deg, rgba(4, 50, 64) 20%, rgba(2, 75, 97) 50%, rgba(9, 112, 143) 100%);
+}
+header h1{ 
+  text-align: left;
+  padding: 45px;
+  font-size: 45px;
+  letter-spacing: 2pt;
+}
+header h4 {
+  margin-top: -85px;
+  font-size: 28pt;
+  text-align: left;
+  margin-left: 315px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+header h3{
+  font-size: 22pt;
+  text-align: left;
+  margin-left: 170px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+header h5 {
+  font-size: 8pt;
+  text-align: center;
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.bottom-picture {
+  margin-top: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+header h5 {
+  margin-top: -130px;
+  letter-spacing: .5pt;
+  color: #2DBD9D;
+  margin-left: 450px;
+}
+header h6{
+  margin-top: -100px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13pt;
+  margin-left: -10px;
+}
+
+header .h6-header7 {
+  list-style-type: none;
+  color: white;
+  margin-top: 250px;
+  margin-left: 150px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: underline;
+}
+
+.flex-container > div{
+  margin-top: -50px;
+  margin-left: 950px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(9, 112, 143);
+  border: solid 4px;
+  border-radius: 5px; 
+  height: 50px;
+  width: 120px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1pt;
+}
+
+.flex-container > div a {
+  color: white;
+}
